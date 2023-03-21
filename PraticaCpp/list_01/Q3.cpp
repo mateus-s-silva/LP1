@@ -14,7 +14,7 @@ double sumHn(int n, double soma){
 
 int main()
 {
-    int a;
+    int a, b;
     double soma = 0;
 
     std::cin >> a;
