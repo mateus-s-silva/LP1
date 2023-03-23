@@ -1,52 +1,52 @@
 #include <iostream>
 #include <string>
 
-int checkUpper(std::string senha){
+bool checkUpper(std::string senha){
     int n = senha.size();
     for(int i = 0; i < n; i++){
         if(isupper(senha[i])){
-            return 1;
+            return true;
         }
     }
-    return 0;
+    return false;
 }
 
-int checkLower(std::string senha){
+bool checkLower(std::string senha){
     int n = senha.size();
     for(int i = 0; i < n; i++){
         if(islower(senha[i])){
-            return 1;
+            return true;
         }
     }
-    return 0;
+    return false;
 }
 
-int checkNumber(std::string senha){
+bool checkNumber(std::string senha){
     int n = senha.size();
     bool check;
     for(int i = 0; i < n; i++){
         if(isdigit(senha[i])){
-            return 1;
+            return true;
         }
     }
-    return 0;
+    return false;
 }
 
-int checkSize(std::string senha){
+bool checkSize(std::string senha){
     if(senha.size() >= 6 && senha.size() <= 32){
-        return 1;
+        return true;
     }
-    return 0;
+    return false;
 }
 
-int checkValidChar(std::string senha){
+bool checkValidChar(std::string senha){
     int n = senha.size();
     for(int i = 0; i < n; i++){
         if(!isalpha(senha[i]) && !isdigit(senha[i])){
-            return 0;
+            return false;
         }
     }
-    return 1;
+    return true;
 }
 
 
@@ -56,13 +56,13 @@ int main(){
 
     while(std::getline(std::cin, senha)){
 
-    int hasLower = checkLower(senha);
-    int hasUpper = checkUpper(senha);
-    int hasNumber = checkNumber(senha);
-    int hasSize = checkSize(senha);
-    int isValid = checkValidChar(senha);
+    bool hasLower = checkLower(senha);
+    bool hasUpper = checkUpper(senha);
+    bool hasNumber = checkNumber(senha);
+    bool hasSize = checkSize(senha);
+    bool isValid = checkValidChar(senha);
 
-    if(hasSize == 1 && hasLower == 1 && hasUpper == 1 && hasNumber == 1 && isValid == 1){
+    if(hasSize && hasLower && hasUpper && hasNumber && isValid){
         std::cout << "Senha valida." << std::endl;
     }
     else{
