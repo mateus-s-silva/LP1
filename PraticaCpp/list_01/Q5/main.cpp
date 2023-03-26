@@ -13,7 +13,7 @@ int main(){
     valorFatorial = fatorial(number);
     valorPrimo = primalidade(valorFatorial - 1);
 
-    std::cout << valorFatorial << std::endl;
+    std::cout << valorPrimo << std::endl;
 
     return 0;
 }
