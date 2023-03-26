@@ -1,20 +1,25 @@
-CXX = g++
-CXXFLAGS = -Wall -g
-LDFLAGS =
 
-SRCS = main.cpp fatorial.cpp primalidade.cpp
-OBJS = $(subst .cpp,.o,$(SRCS))
-EXEC = Q5
+CC=g++
+CFLAGS=-c -Wall
+
+EXECUTAVEL=Q5
+
+OBJETOS=main.o fatorial.o primalidade.o
+
+all: $(EXECUTAVEL)
+
+$(EXECUTAVEL): $(OBJETOS)
+	$(CC) $(OBJETOS) -o $@
+
+main.o: main.cpp fatorial.h primalidade.h
+	$(CC) $(CFLAGS) main.cpp -o $@
+
+fatorial.o: fatorial.cpp fatorial.h
+	$(CC) $(CFLAGS) fatorial.cpp -o $@
+
+primalidade.o: primalidade.cpp primalidade.h
+	$(CC) $(CFLAGS) primalidade.cpp -o $@
 
 .PHONY: clean
-
-all: $(EXEC)
-
-$(EXEC): $(OBJS)
-	$(CXX) $(LDFLAGS) $(OBJS) -o $(EXEC)
-
-%.o: %.cpp
-	$(CXX) $(CXXFLAGS) -c $< -o $@
-
 clean:
-	rm -f $(OBJS) $(EXEC)
+	rm -f *.o

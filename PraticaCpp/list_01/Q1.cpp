@@ -1,5 +1,12 @@
 #include <iostream> 
 
+// Aluno: Mateus Sousa da Silva
+// Matrícula: 20220046908
+
+
+/* Implemente uma função recursiva que calcule a soma dos primeiros n cubos*/
+
+
 int sumCube(int n, int soma){
 
     if(n == 1){

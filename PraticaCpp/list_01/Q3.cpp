@@ -1,5 +1,12 @@
 #include <iostream>
 
+// Aluno: Mateus Sousa da Silva
+// Matrícula: 20220046908
+
+/* Em matemática, o número harmônico designado por Hn define-se como o enésimo termo
+da série harmônica. Implemente uma função recursiva que calcule o valor de qualquer
+Hn */
+
 double sumHn(int n, double soma){
 
     if(n == 1){

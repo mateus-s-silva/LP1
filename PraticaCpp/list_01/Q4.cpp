@@ -1,6 +1,10 @@
 #include <iostream>
 #include <string>
 
+// Aluno: Mateus Sousa da Silva
+// Matrícula: 20220046908
+
+
 /* Implemente uma função recursiva que determine quantas vezes um dígito d ocorre em
    um número natural K. Por exemplo, o dígito 6 ocorre 2 vezes em 362867.
 

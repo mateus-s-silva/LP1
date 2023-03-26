@@ -1,5 +1,7 @@
 #include <iostream>
  
+// Aluno: Mateus Sousa da Silva
+// Matrícula: 20220046908
 
 // Implemente uma função recursiva que retorne o menor elemento em um vetor
 
