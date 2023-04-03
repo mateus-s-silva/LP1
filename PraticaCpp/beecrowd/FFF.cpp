@@ -33,7 +33,7 @@ int main(){
     int len, aux = 0;
 
     std::string tauto = "";
-
+    
     while(std::getline(std::cin, tauto)){
 
         if(tauto == "*")
@@ -41,7 +41,7 @@ int main(){
 
         std::transform(tauto.begin(), tauto.end(), tauto.begin(), ::toupper);
 
-        std::vector<std::string> tokens =  mystrtok(tauto, ' ');
+        std::vector<std::string> tokens = mystrtok(tauto, ' ');
 
         len = tokens.size();
 
