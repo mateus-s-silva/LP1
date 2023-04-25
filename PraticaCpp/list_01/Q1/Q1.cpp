@@ -3,8 +3,17 @@
 // Aluno: Mateus Sousa da Silva
 // Matrícula: 20220046908
 
+/**
 
-/* Implemente uma função recursiva que calcule a soma dos primeiros n cubos*/
+    @brief Calcula a soma dos primeiros n cubos
+
+    @param n O número atual de cubos a ser somado
+
+    @param soma O valor da soma atual
+
+    @return A soma dos primeiros n cubos
+
+*/
 
 
 int sumCube(int n, int soma){

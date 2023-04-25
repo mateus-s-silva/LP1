@@ -3,7 +3,25 @@
 // Aluno: Mateus Sousa da Silva
 // Matrícula: 20220046908
 
-// Implemente uma função recursiva que retorne o menor elemento em um vetor
+/**
+
+    @brief Encontra o menor valor em um vetor de inteiros
+
+    @param vector O vetor de inteiros
+
+    @param menorNumero O valor atual do menor número
+
+    @param n O tamanho atual do vetor
+
+    @return O menor valor encontrado no vetor
+
+    Esta função recursiva encontra o menor valor em um vetor de inteiros.
+    Se n é menor do que 0, a função retorna o valor de menorNumero.
+    Caso contrário, se o valor no índice n do vetor é menor do que menorNumero,
+    a função atualiza o valor de menorNumero. Em seguida, chama a função novamente com
+    n-1 e o valor atualizado de menorNumero.
+
+*/
 
 int findSmallestNumber(int vector[], int menorNumero, int n){
     if(n < 0){
@@ -18,6 +36,14 @@ int findSmallestNumber(int vector[], int menorNumero, int n){
 }
 
 int main() {
+
+    /**
+
+    @brief Função principal do programa
+
+    Este programa recebe um vetor de inteiros do usuário e encontra o menor valor
+    presente nele, usando a função findSmallestNumber. O resultado é exibido na tela.
+*/
  
    int n, menorNumero;
 

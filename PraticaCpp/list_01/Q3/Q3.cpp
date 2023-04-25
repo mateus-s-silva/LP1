@@ -3,9 +3,26 @@
 // Aluno: Mateus Sousa da Silva
 // Matrícula: 20220046908
 
-/* Em matemática, o número harmônico designado por Hn define-se como o enésimo termo
-da série harmônica. Implemente uma função recursiva que calcule o valor de qualquer
-Hn */
+/**
+
+ @file Q3
+
+ @brief Calcula um número harmônico Hn
+
+ @param n O valor de n
+
+ @param soma O valor atual da soma dos termos
+
+ @return O valor de Hn
+
+ Esta função recursiva calcula um número harmônico Hn.
+
+ Se n é igual a 1, a função retorna o valor atualizado de soma mais 1.
+
+ Caso contrário, a função atualiza o valor de soma com o termo atual (1/n),
+
+ e chama a função novamente com n-1 e o valor atualizado de soma.
+*/
 
 double sumHn(int n, double soma){
 

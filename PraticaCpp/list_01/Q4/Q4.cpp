@@ -5,11 +5,20 @@
 // Matrícula: 20220046908
 
 
-/* Implemente uma função recursiva que determine quantas vezes um dígito d ocorre em
-   um número natural K. Por exemplo, o dígito 6 ocorre 2 vezes em 362867.
+/**
 
-   Da pra colocar algumas restrições pro usuário não inserir um número negativo, mas 
-   não sei se esse é o intuito da lista, então como a função está funcionando, está aí!! */
+    @brief Função que conta quantas vezes um número aparece em outro número.
+    
+    @param number Número inteiro em que será procurado o número.
+    
+    @param swhatNumber Número a ser procurado em 'number'.
+    
+    @param k Índice do último caractere a ser analisado em 'number'.
+    
+    @param h Variável que armazena o número de vezes que swhatNumber aparece em number.
+    
+    @return Número de vezes que swhatNumber aparece em number.
+*/
 
 int countNumbers(std::string number, std::string swhatNumber, int k, int h){
     if(k < 0){
