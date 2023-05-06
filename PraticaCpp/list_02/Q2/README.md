@@ -1,4 +1,4 @@
-### Respostas questão 2
+# Respostas questão 2
 
 ## 2.1) O que é "git cherry-pick"?
 O comando “git cherry-pick” permite que você selecione um commit específico de uma branch e o aplique em outra branch. Isso é útil quando você deseja aplicar um commit específico em uma branch diferente sem ter que mesclar toda a branch1.
