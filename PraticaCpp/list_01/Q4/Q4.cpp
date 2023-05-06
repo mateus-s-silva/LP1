@@ -6,7 +6,7 @@
 
 
 /**
-
+    @file Q4.cpp
     @brief Função que conta quantas vezes um número aparece em outro número.
     
     @param number Número inteiro em que será procurado o número.

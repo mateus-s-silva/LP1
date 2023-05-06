@@ -3,6 +3,7 @@
 
 
 /**
+ * @file primalidade.cpp
  * @brief Verifica se um número é primo.
  *
  * Esta função verifica se um número inteiro dado n é primo.

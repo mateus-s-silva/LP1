@@ -5,7 +5,7 @@
 
 /**
 
- @file Q3
+ @file Q3.cpp
 
  @brief Calcula um número harmônico Hn
 

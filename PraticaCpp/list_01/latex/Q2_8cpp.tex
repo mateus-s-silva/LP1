@@ -1,0 +1,47 @@
+\hypertarget{Q2_8cpp}{}\doxysection{Q2/\+Q2.cpp File Reference}
+\label{Q2_8cpp}\index{Q2/Q2.cpp@{Q2/Q2.cpp}}
+
+
+Encontra o menor valor em um vetor de inteiros.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for Q2.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{Q2_8cpp_a5eeb156d00a75859ca21adf994a56b05}\label{Q2_8cpp_a5eeb156d00a75859ca21adf994a56b05}} 
+int {\bfseries find\+Smallest\+Number} (int vector\mbox{[}$\,$\mbox{]}, int menor\+Numero, int n)
+\item 
+int \mbox{\hyperlink{Q2_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Encontra o menor valor em um vetor de inteiros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & O vetor de inteiros\\
+\hline
+{\em menor\+Numero} & O valor atual do menor número\\
+\hline
+{\em n} & O tamanho atual do vetor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O menor valor encontrado no vetor
+\end{DoxyReturn}
+Esta função recursiva encontra o menor valor em um vetor de inteiros. Se n é menor do que 0, a função retorna o valor de menor\+Numero. Caso contrário, se o valor no índice n do vetor é menor do que menor\+Numero, a função atualiza o valor de menor\+Numero. Em seguida, chama a função novamente com n-\/1 e o valor atualizado de menor\+Numero. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{Q2_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{Q2_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{Q2.cpp@{Q2.cpp}!main@{main}}
+\index{main@{main}!Q2.cpp@{Q2.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função principal do programa
+
+Este programa recebe um vetor de inteiros do usuário e encontra o menor valor presente nele, usando a função find\+Smallest\+Number. O resultado é exibido na tela.

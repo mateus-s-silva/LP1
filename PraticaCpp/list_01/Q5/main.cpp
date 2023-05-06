@@ -2,11 +2,13 @@
 #include "fatorial.h"
 #include "primalidade.h"
 
-// Aluno: Mateus Sousa da Silva
-// Matrícula: 20220046908
+/**
 
-/* Implemente uma função que lê um valor inteiro e retorna o maior número primo inteiro
-anterior ao valor do fatorial desse número. */
+    @file main.cpp
+    @brief Programa que lê um valor inteiro e retorna o maior número primo inteiro anterior ao valor do fatorial desse número.
+    @author Mateus Sousa da Silva
+    @author Matrícula: 20220046908
+    */
 
 int main(){
 

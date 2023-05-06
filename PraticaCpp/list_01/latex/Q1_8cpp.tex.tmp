@@ -1,0 +1,34 @@
+\hypertarget{Q1_8cpp}{}\doxysection{Q1/\+Q1.cpp File Reference}
+\label{Q1_8cpp}\index{Q1/Q1.cpp@{Q1/Q1.cpp}}
+
+
+Calcula a soma dos primeiros n cubos.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for Q1.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{Q1_8cpp_a4d7d3397c592ed70fc143f07b6078941}\label{Q1_8cpp_a4d7d3397c592ed70fc143f07b6078941}} 
+int {\bfseries sum\+Cube} (int n, int soma)
+\item 
+\mbox{\Hypertarget{Q1_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{Q1_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Calcula a soma dos primeiros n cubos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & O número atual de cubos a ser somado\\
+\hline
+{\em soma} & O valor da soma atual\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A soma dos primeiros n cubos 
+\end{DoxyReturn}

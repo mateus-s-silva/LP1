@@ -1,0 +1,41 @@
+\hypertarget{Q3_8cpp}{}\doxysection{Q3/\+Q3.cpp File Reference}
+\label{Q3_8cpp}\index{Q3/Q3.cpp@{Q3/Q3.cpp}}
+
+
+Calcula um número harmônico Hn.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for Q3.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{Q3_8cpp_a7a5852e6cee87221f441a2084386f0d2}\label{Q3_8cpp_a7a5852e6cee87221f441a2084386f0d2}} 
+double {\bfseries sum\+Hn} (int n, double soma)
+\item 
+\mbox{\Hypertarget{Q3_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{Q3_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Calcula um número harmônico Hn. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & O valor de n\\
+\hline
+{\em soma} & O valor atual da soma dos termos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O valor de Hn
+\end{DoxyReturn}
+Esta função recursiva calcula um número harmônico Hn.
+
+Se n é igual a 1, a função retorna o valor atualizado de soma mais 1.
+
+Caso contrário, a função atualiza o valor de soma com o termo atual (1/n),
+
+e chama a função novamente com n-\/1 e o valor atualizado de soma. 

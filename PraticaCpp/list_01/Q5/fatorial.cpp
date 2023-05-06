@@ -2,6 +2,7 @@
 
 
 /**
+ * @file fatorial.cpp
  * @brief Calcula o fatorial de um número inteiro não negativo.
  *
  * Esta função calcula o fatorial de um número inteiro não negativo n.
