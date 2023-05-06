@@ -22,8 +22,10 @@ O projeto consiste nos seguintes arquivos:
 
 ## Compilação e Execução
 
-Para compilar o projeto, certifique-se de ter um compilador C++ instalado e execute o seguinte comando no diretório que se encontra o projeto:
+Para compilar o projeto em sistemas Unix, certifique-se de ter um compilador C++ e o Make instalado e execute o seguinte comando no diretório que se encontra o projeto:
 ```bash 
 make
 ```
+
+
 
