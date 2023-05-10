@@ -1,6 +1,6 @@
 // Arquivo Turma.cpp
 
-#include "Turma.h"
+#include "turma.h"
 #include <iostream>
 #include <algorithm>
 

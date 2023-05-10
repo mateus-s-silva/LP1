@@ -4,6 +4,7 @@
 // Matrícula: 20220046908
 
 /**
+    @file Q1.cpp
 
     @brief Calcula a soma dos primeiros n cubos
 

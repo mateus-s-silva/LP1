@@ -27,5 +27,10 @@ Para compilar o projeto em sistemas Unix, certifique-se de ter um compilador C++
 make
 ```
 
+Para executar o programa, execute o seguinte comando no diretório que se encontra o projeto:
+```bash
+./programa
+```
+
 
 

@@ -1,0 +1,59 @@
+\hypertarget{primalidade_8cpp}{}\doxysection{Q5/primalidade.cpp File Reference}
+\label{primalidade_8cpp}\index{Q5/primalidade.cpp@{Q5/primalidade.cpp}}
+
+
+Verifica se um número é primo.  
+
+
+{\ttfamily \#include \char`\"{}primalidade.\+h\char`\"{}}\newline
+Include dependency graph for primalidade.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{primalidade_8cpp_af6607947857aa3816c99497bbd1fa614}\label{primalidade_8cpp_af6607947857aa3816c99497bbd1fa614}} 
+bool {\bfseries is\+Primo} (int n)
+\item 
+int \mbox{\hyperlink{primalidade_8cpp_adff687305c2070ea3a43ac550a424947}{primalidade}} (int n)
+\begin{DoxyCompactList}\small\item\em Encontra o maior número primo menor ou igual a um número dado. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Verifica se um número é primo. 
+
+Esta função verifica se um número inteiro dado n é primo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & O número a ser verificado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true se o número for primo, false caso contrário.
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+A função usa um laço para verificar se o número é divisível por mais de dois números. 
+\end{DoxyNote}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{primalidade_8cpp_adff687305c2070ea3a43ac550a424947}\label{primalidade_8cpp_adff687305c2070ea3a43ac550a424947}} 
+\index{primalidade.cpp@{primalidade.cpp}!primalidade@{primalidade}}
+\index{primalidade@{primalidade}!primalidade.cpp@{primalidade.cpp}}
+\doxysubsubsection{\texorpdfstring{primalidade()}{primalidade()}}
+{\footnotesize\ttfamily int primalidade (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Encontra o maior número primo menor ou igual a um número dado. 
+
+Esta função encontra o maior número primo menor ou igual a um número dado n, utilizando a função {\ttfamily is\+Primo}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & O número para o qual se deseja encontrar o maior número primo menor ou igual.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O maior número primo menor ou igual a n. Se nenhum número primo for encontrado, retorna 0. 
+\end{DoxyReturn}
