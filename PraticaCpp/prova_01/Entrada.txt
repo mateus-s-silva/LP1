@@ -1,0 +1,7 @@
+Joao 2500.00
+Maria 3500.00
+Pedro 2000.00
+Julia 4000.00
+Lucas 3000.00
+Tobias 1200.00
+Luma 10000.00
